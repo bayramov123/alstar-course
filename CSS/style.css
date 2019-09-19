@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-------- Header Start---------- */
+#Header{
+    background: rgb(50, 80, 80);
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+#Header .menu ul li{
+    display: inline-block;
+    padding: 20px 8px;
+    cursor: pointer;
+}
+#Header .logo{
+    padding: 15px 0;
+    cursor: pointer;
+    color: white;
+}
+#Header .menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+/*------------------ Header END ------------- */
+#studio{
+    background: url(https://bootstrapmade.com/demo/themes/Alstar/img/intro/3.jpg);
+    height: 700px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    
+}
+#studio p{
+    margin: 20px 0;
+
+}
+#studio button{
+    background: transparent;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+}
